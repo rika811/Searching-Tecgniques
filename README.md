@@ -9,7 +9,10 @@ The most common searching algorithms are:
 
 ## Sequential search
 
-In this search algorithm a sequential search is made over all the items one by one to search for the targeted item. Each item is checked in sequence until the match is found. If the match is found, particular item is returned otherwise the search continues till the end.
+In this search algorithm a sequential search is made over all the items one by one to search for the targeted item. Each item is checked in sequence until the match is found. If the match is found, particular item is returned otherwise the search continues till the end.This is also called linear search.
+
+![Screenshot 2023-04-25 at 1 26 38 AM](https://user-images.githubusercontent.com/91966167/234102314-03464ad8-57a1-4b44-a380-de51c1a3cae3.png)
+
 
 ### Algorithm
 
@@ -35,6 +38,9 @@ Step 8: Exit
 
 ### Binary Search 
 Binary Search Algorithm is fast according to run time complexity. This algorithm works on the basis of divide and conquer rule. In this algorithm we have to sort the data collection in ascending order first then search for the targeted item by comparing the middle most item of the collection. If match found, the index of item is returned. If the middle item is greater than the targeted item, the item is searched in the sub-array to the left of the middle item. Otherwise, the item is searched for in the sub-array to the right of the middle item. This process continues on the sub-array as well until the size of the sub array reduces to zero.
+
+![Screenshot 2023-04-25 at 1 29 00 AM](https://user-images.githubusercontent.com/91966167/234102882-b5284e24-a6e3-4888-a8a1-967667e87ffc.png)
+
 
 ### Algorithm
 
